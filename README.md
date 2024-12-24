@@ -25,7 +25,25 @@ In the output, you'll find options to open the app in a
 
 You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Learn more
+## Nativewind
+
+This project uses [Nativewind](https://www.nativewind.dev/) for styling.
+
+## Prettier
+
+This project uses [Prettier](https://prettier.io/) for formatting.
+
+## ESLint
+
+This project uses [ESLint](https://eslint.org/) for linting.
+
+## Husky
+
+This project uses [Husky](https://typicode.github.io/husky/#/) for git hooks.
+
+## Expo Router
+
+This project uses [Expo Router](https://docs.expo.dev/router/introduction) for navigation.
 
 To learn more about developing your project with Expo, look at the following resources:
 
