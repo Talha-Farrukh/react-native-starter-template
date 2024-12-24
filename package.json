@@ -10,14 +10,8 @@
     "web": "expo start --web",
     "test": "jest --watchAll",
     "lint": "expo lint",
-    "prepare": "husky install",
-    "precommit": "lint-staged"
-  },
-  "lint-staged": {
-    "**/*.{ts,tsx}": [
-      "expo lint --fix",
-      "prettier --write"
-    ]
+    "format": "prettier --write .",
+    "prepare": "husky"
   },
   "jest": {
     "preset": "jest-expo"
