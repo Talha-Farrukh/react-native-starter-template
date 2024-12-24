@@ -1,5 +1,5 @@
 // A button component
-import { Button as RNButton, Text, TouchableOpacity } from "react-native";
+import { Text, TouchableOpacity } from "react-native";
 
 export const Button = ({
   title,
@@ -9,8 +9,11 @@ export const Button = ({
   onPress: () => void;
 }) => {
   return (
-    <TouchableOpacity className="bg-blue-500 p-2 rounded-md" onPress={onPress}>
-      <Text className="text-white">{title}</Text>
+    <TouchableOpacity
+      className="bg-blue-500 p-2 rounded-md w-auto"
+      onPress={onPress}
+    >
+      <Text className="text-white text-center">{title}</Text>
     </TouchableOpacity>
   );
 };
