@@ -9,10 +9,7 @@ export const Button = ({
   onPress: () => void;
 }) => {
   return (
-    <TouchableOpacity
-      className="bg-blue-500 p-2 rounded-md"
-      onPress={onPress}
-    >
+    <TouchableOpacity className="bg-blue-500 p-2 rounded-md" onPress={onPress}>
       <Text className="text-white">{title}</Text>
     </TouchableOpacity>
   );
