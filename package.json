@@ -10,7 +10,7 @@
     "web": "expo start --web",
     "test": "jest --watchAll",
     "lint": "expo lint",
-    "format": "prettier --write . --path '^(?!.*/(ios|android)).*'",
+    "format": "prettier --write .",
     "prepare": "husky"
   },
   "jest": {
