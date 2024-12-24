@@ -1,6 +1,6 @@
-# Welcome to your Expo app 👋
+# React Native Starter Template 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is a React Native starter template created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app), using [Expo](https://expo.dev) and [React Native](https://reactnative.dev), with [Typescript](https://www.typescriptlang.org/), [Tailwind CSS](https://tailwindcss.com/), [Prettier](https://prettier.io/), [ESLint](https://eslint.org/), [Husky](https://typicode.github.io/husky/#/) and [Lint Staged](https://github.com/okonet/lint-staged).
 
 ## Get started
 
